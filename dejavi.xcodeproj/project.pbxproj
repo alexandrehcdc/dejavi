@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A32AA451F05B8CB0056A667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA441F05B8CB0056A667 /* AppDelegate.swift */; };
+		7A32AA471F05B8CB0056A667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA461F05B8CB0056A667 /* ViewController.swift */; };
+		7A32AA4A1F05B8CC0056A667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA481F05B8CC0056A667 /* Main.storyboard */; };
+		7A32AA4C1F05B8CC0056A667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */; };
+		7A32AA4F1F05B8CC0056A667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA4D1F05B8CC0056A667 /* LaunchScreen.storyboard */; };
+		7A32AA5A1F05B8CE0056A667 /* dejaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA591F05B8CE0056A667 /* dejaviTests.swift */; };
+		7A32AA651F05B8CE0056A667 /* dejaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A32AA561F05B8CE0056A667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A32AA391F05B8CA0056A667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A32AA401F05B8CB0056A667;
+			remoteInfo = dejavi;
+		};
+		7A32AA611F05B8CE0056A667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A32AA391F05B8CA0056A667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A32AA401F05B8CB0056A667;
+			remoteInfo = dejavi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A32AA411F05B8CB0056A667 /* dejavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dejavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A32AA441F05B8CB0056A667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A32AA461F05B8CB0056A667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A32AA491F05B8CC0056A667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A32AA4E1F05B8CC0056A667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A32AA501F05B8CC0056A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A32AA551F05B8CE0056A667 /* dejaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dejaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A32AA591F05B8CE0056A667 /* dejaviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dejaviTests.swift; sourceTree = "<group>"; };
+		7A32AA5B1F05B8CE0056A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A32AA601F05B8CE0056A667 /* dejaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dejaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dejaviUITests.swift; sourceTree = "<group>"; };
+		7A32AA661F05B8CE0056A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A32AA3E1F05B8CB0056A667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AA521F05B8CE0056A667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AA5D1F05B8CE0056A667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A32AA381F05B8CA0056A667 = {
+			isa = PBXGroup;
+			children = (
+				7A32AA431F05B8CB0056A667 /* dejavi */,
+				7A32AA581F05B8CE0056A667 /* dejaviTests */,
+				7A32AA631F05B8CE0056A667 /* dejaviUITests */,
+				7A32AA421F05B8CB0056A667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A32AA421F05B8CB0056A667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AA411F05B8CB0056A667 /* dejavi.app */,
+				7A32AA551F05B8CE0056A667 /* dejaviTests.xctest */,
+				7A32AA601F05B8CE0056A667 /* dejaviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A32AA431F05B8CB0056A667 /* dejavi */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AA441F05B8CB0056A667 /* AppDelegate.swift */,
+				7A32AA461F05B8CB0056A667 /* ViewController.swift */,
+				7A32AA481F05B8CC0056A667 /* Main.storyboard */,
+				7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */,
+				7A32AA4D1F05B8CC0056A667 /* LaunchScreen.storyboard */,
+				7A32AA501F05B8CC0056A667 /* Info.plist */,
+			);
+			path = dejavi;
+			sourceTree = "<group>";
+		};
+		7A32AA581F05B8CE0056A667 /* dejaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AA591F05B8CE0056A667 /* dejaviTests.swift */,
+				7A32AA5B1F05B8CE0056A667 /* Info.plist */,
+			);
+			path = dejaviTests;
+			sourceTree = "<group>";
+		};
+		7A32AA631F05B8CE0056A667 /* dejaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */,
+				7A32AA661F05B8CE0056A667 /* Info.plist */,
+			);
+			path = dejaviUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A32AA401F05B8CB0056A667 /* dejavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A32AA691F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejavi" */;
+			buildPhases = (
+				7A32AA3D1F05B8CB0056A667 /* Sources */,
+				7A32AA3E1F05B8CB0056A667 /* Frameworks */,
+				7A32AA3F1F05B8CB0056A667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dejavi;
+			productName = dejavi;
+			productReference = 7A32AA411F05B8CB0056A667 /* dejavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A32AA541F05B8CE0056A667 /* dejaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A32AA6C1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviTests" */;
+			buildPhases = (
+				7A32AA511F05B8CE0056A667 /* Sources */,
+				7A32AA521F05B8CE0056A667 /* Frameworks */,
+				7A32AA531F05B8CE0056A667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A32AA571F05B8CE0056A667 /* PBXTargetDependency */,
+			);
+			name = dejaviTests;
+			productName = dejaviTests;
+			productReference = 7A32AA551F05B8CE0056A667 /* dejaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A32AA5F1F05B8CE0056A667 /* dejaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A32AA6F1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviUITests" */;
+			buildPhases = (
+				7A32AA5C1F05B8CE0056A667 /* Sources */,
+				7A32AA5D1F05B8CE0056A667 /* Frameworks */,
+				7A32AA5E1F05B8CE0056A667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A32AA621F05B8CE0056A667 /* PBXTargetDependency */,
+			);
+			name = dejaviUITests;
+			productName = dejaviUITests;
+			productReference = 7A32AA601F05B8CE0056A667 /* dejaviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A32AA391F05B8CA0056A667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					7A32AA401F05B8CB0056A667 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7A32AA541F05B8CE0056A667 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A32AA401F05B8CB0056A667;
+					};
+					7A32AA5F1F05B8CE0056A667 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A32AA401F05B8CB0056A667;
+					};
+				};
+			};
+			buildConfigurationList = 7A32AA3C1F05B8CA0056A667 /* Build configuration list for PBXProject "dejavi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A32AA381F05B8CA0056A667;
+			productRefGroup = 7A32AA421F05B8CB0056A667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A32AA401F05B8CB0056A667 /* dejavi */,
+				7A32AA541F05B8CE0056A667 /* dejaviTests */,
+				7A32AA5F1F05B8CE0056A667 /* dejaviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A32AA3F1F05B8CB0056A667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AA4F1F05B8CC0056A667 /* LaunchScreen.storyboard in Resources */,
+				7A32AA4C1F05B8CC0056A667 /* Assets.xcassets in Resources */,
+				7A32AA4A1F05B8CC0056A667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AA531F05B8CE0056A667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AA5E1F05B8CE0056A667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A32AA3D1F05B8CB0056A667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AA471F05B8CB0056A667 /* ViewController.swift in Sources */,
+				7A32AA451F05B8CB0056A667 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AA511F05B8CE0056A667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AA5A1F05B8CE0056A667 /* dejaviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A32AA5C1F05B8CE0056A667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A32AA651F05B8CE0056A667 /* dejaviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A32AA571F05B8CE0056A667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A32AA401F05B8CB0056A667 /* dejavi */;
+			targetProxy = 7A32AA561F05B8CE0056A667 /* PBXContainerItemProxy */;
+		};
+		7A32AA621F05B8CE0056A667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A32AA401F05B8CB0056A667 /* dejavi */;
+			targetProxy = 7A32AA611F05B8CE0056A667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A32AA481F05B8CC0056A667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A32AA491F05B8CC0056A667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A32AA4D1F05B8CC0056A667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A32AA4E1F05B8CC0056A667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A32AA671F05B8CE0056A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A32AA681F05B8CE0056A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A32AA6A1F05B8CE0056A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dejavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitrifrazao.dejavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A32AA6B1F05B8CE0056A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dejavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitrifrazao.dejavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A32AA6D1F05B8CE0056A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dejaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitrifrazao.dejaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dejavi.app/dejavi";
+			};
+			name = Debug;
+		};
+		7A32AA6E1F05B8CE0056A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = dejaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitrifrazao.dejaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dejavi.app/dejavi";
+			};
+			name = Release;
+		};
+		7A32AA701F05B8CE0056A667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dejaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitrifrazao.dejaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dejavi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A32AA711F05B8CE0056A667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = dejaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimitrifrazao.dejaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dejavi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A32AA3C1F05B8CA0056A667 /* Build configuration list for PBXProject "dejavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A32AA671F05B8CE0056A667 /* Debug */,
+				7A32AA681F05B8CE0056A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A32AA691F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A32AA6A1F05B8CE0056A667 /* Debug */,
+				7A32AA6B1F05B8CE0056A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A32AA6C1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A32AA6D1F05B8CE0056A667 /* Debug */,
+				7A32AA6E1F05B8CE0056A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A32AA6F1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A32AA701F05B8CE0056A667 /* Debug */,
+				7A32AA711F05B8CE0056A667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A32AA391F05B8CA0056A667 /* Project object */;
+}
