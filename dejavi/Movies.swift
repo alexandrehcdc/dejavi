@@ -1,6 +1,5 @@
 
 import UIKit
-import
 
 class MovieModel {
     var title, year, poster, type, imdbId: String

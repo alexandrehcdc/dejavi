@@ -1,9 +1,7 @@
-//
-//  APICalls.swift
-//  dejavi
-//
-//  Created by dimitri frazao on 7/1/17.
-//  Copyright © 2017 none. All rights reserved.
-//
 
 import Foundation
+
+class APICalls {
+    var basePath : String = "http://www.omdbapi.com/?apikey=c22bc403"
+    
+}
