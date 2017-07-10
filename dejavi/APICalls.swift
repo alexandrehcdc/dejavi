@@ -3,7 +3,7 @@ import Foundation
 import Alamofire
 
 class APICalls {
-    var basePath : String = "http://www.omdbapi.com/?apikey=ec6483bd?"
+    var basePath : String = "http://www.omdbapi.com/?apikey=ec6483bd"
     var newModel = MovieModel()
     
     func callAPI (paramsToBeSearched: String, _ typeOfOperation: String) -> NSData? {
@@ -22,10 +22,10 @@ class APICalls {
     }
     
     func getByTitle (titleToBeSearched: String) {
-        print(callAPI(titleToBeSearched, "?t="))
+        print(callAPI(titleToBeSearched, "&t="))
     }
     
     func getBySearch (titleToBeSearched: String) {
-        print(callAPI(titleToBeSearched, "?s="))
+        print(callAPI(titleToBeSearched, "&s="))
     }
 }
