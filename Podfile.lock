@@ -1,12 +1,20 @@
 PODS:
-  - Alamofire (3.5.1)
+  - Alamofire (2.0.2)
+  - Realm (0.102.1):
+    - Realm/Headers (= 0.102.1)
+  - Realm/Headers (0.102.1)
+  - SwiftLint (0.20.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 3.5.0)
+  - Alamofire (~> 2.0)
+  - Realm (~> 0.102.1)
+  - SwiftLint
 
 SPEC CHECKSUMS:
-  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  Realm: 5254be610db3e5024879684717bf038990bb59ec
+  SwiftLint: f60095dc173a3f3ec505bb34f5229c3dfd779a54
 
-PODFILE CHECKSUM: 9c27d469bbf581a5a928a23bd9996f4bbce4c223
+PODFILE CHECKSUM: 0ab4e5594267a80f18923f142ba9cd4741371d9c
 
 COCOAPODS: 1.2.1
