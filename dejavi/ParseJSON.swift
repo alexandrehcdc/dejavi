@@ -10,6 +10,5 @@ import Foundation
 import SwiftyJSON
 
 func parseJSON (json : String) -> JSON {
-    print("o que veio no parse \(json)")
     return JSON(json)
 }

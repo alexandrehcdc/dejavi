@@ -1,16 +1,13 @@
 
-import UIKit
+import Foundation
+import Realm
 
 class MovieModel {
-    var title, year, poster, type, imdbId: String
-    
-    struct rating {
-        var source, value: String?
-    }
+    dynamic var title, year, poster, type, imdbId: String?
     
     struct movieDescription {
-        var rated, runtime, genre, plot, awards: String
-        var ratings : [rating] = []
+        var rated, runtime, genre, plot, awards, director: String
+        var ratings : [NSData] = []
     }
     
     init(title: String, year: String, poster: String, type: String, imdbId: String) {
@@ -21,4 +18,7 @@ class MovieModel {
         self.imdbId = imdbId
     }
     
+    init () {
+        
+    }
 }

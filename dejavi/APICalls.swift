@@ -1,31 +1,39 @@
-
+//
+//  ViewController.swift
+//  dejavi
+//
+//  Created by dimitri frazao on 6/29/17.
+//  Copyright © 2017 none. All rights reserved.
+//
 import Foundation
 import Alamofire
+import SwiftyJSON
 
-class APICalls {
+class APICalls : APIContract{
+    
     var basePath : String = "http://www.omdbapi.com/?apikey=ec6483bd"
     var newModel = MovieModel()
+    private var data: JSON?
     
-    func callAPI (paramsToBeSearched: String, _ typeOfOperation: String) -> NSData? {
-        guard !paramsToBeSearched.isEmpty && !typeOfOperation.isEmpty else {
-            return nil
-        }
+    func loadResponse(data: JSON) {
+        self.data = data
+    }
+    
+    
+    func callAPI (paramsToBeSearched: String, _ typeOfOperation: String, completion: (JSON) -> ()) {
+        
         let requestPath : String = "\(basePath)\(typeOfOperation)\(paramsToBeSearched)"
-        var teste : NSData?
+        
         Alamofire.request(.GET, requestPath)
+            .validate()
             .responseString { _, _, result in
-                print("Success: \(result.isSuccess)")
-                print("Response String: \(result.value)")
-                teste = result.data
+                guard result.isSuccess else {
+                    print(result.error)
+                    return
+                }
+                
+                completion(parseJSON(result.value!))
         }
-        return teste
-    }
-    
-    func getByTitle (titleToBeSearched: String) {
-        print(callAPI(titleToBeSearched, "&t="))
-    }
-    
-    func getBySearch (titleToBeSearched: String) {
-        print(callAPI(titleToBeSearched, "&s="))
+
     }
 }

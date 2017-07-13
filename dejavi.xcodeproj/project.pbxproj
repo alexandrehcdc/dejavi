@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A17265E1F1360970056F082 /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17265D1F1360970056F082 /* ParseJSON.swift */; };
 		7A32AA451F05B8CB0056A667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA441F05B8CB0056A667 /* AppDelegate.swift */; };
-		7A32AA471F05B8CB0056A667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA461F05B8CB0056A667 /* ViewController.swift */; };
 		7A32AA4A1F05B8CC0056A667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA481F05B8CC0056A667 /* Main.storyboard */; };
 		7A32AA4C1F05B8CC0056A667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */; };
 		7A32AA4F1F05B8CC0056A667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA4D1F05B8CC0056A667 /* LaunchScreen.storyboard */; };
 		7A32AA5A1F05B8CE0056A667 /* dejaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA591F05B8CE0056A667 /* dejaviTests.swift */; };
 		7A32AA651F05B8CE0056A667 /* dejaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */; };
+		7ABFD5FA1F134CCD00AAC508 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD5F91F134CCD00AAC508 /* APICalls.swift */; };
+		7ABFD6041F134CFB00AAC508 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD5FF1F134CFB00AAC508 /* CategoryRow.swift */; };
+		7ABFD6051F134CFB00AAC508 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD6001F134CFB00AAC508 /* Movies.swift */; };
+		7ABFD6061F134CFB00AAC508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD6011F134CFB00AAC508 /* ViewController.swift */; };
+		7AC9C3B31F16A9D200A9A942 /* APIContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9C3B21F16A9D200A9A942 /* APIContract.swift */; };
+		B7DCC0B6BC97B42EE1865FC7 /* Pods_dejavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66FB69D01B87D4D72DABFE /* Pods_dejavi.framework */; };
+		DC4203F9298B40401EF37C1F /* Pods_dejaviUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0131E0FDFB6F6030DF8F2C82 /* Pods_dejaviUITests.framework */; };
+		DE42DA8A07F758BA9A61F8E1 /* Pods_dejaviTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E01DA9EFB077A233340ED4 /* Pods_dejaviTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0131E0FDFB6F6030DF8F2C82 /* Pods_dejaviUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejaviUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F66FB69D01B87D4D72DABFE /* Pods_dejavi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejavi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29426D2C223D298C1FF181B6 /* Pods-dejaviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviTests/Pods-dejaviTests.release.xcconfig"; sourceTree = "<group>"; };
+		4281C751DB59388A669AF87D /* Pods-dejaviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviUITests/Pods-dejaviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A17265D1F1360970056F082 /* ParseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
 		7A32AA411F05B8CB0056A667 /* dejavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dejavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A32AA441F05B8CB0056A667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A32AA461F05B8CB0056A667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A32AA491F05B8CC0056A667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A32AA4E1F05B8CC0056A667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		7A32AA601F05B8CE0056A667 /* dejaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dejaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dejaviUITests.swift; sourceTree = "<group>"; };
 		7A32AA661F05B8CE0056A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABFD5F91F134CCD00AAC508 /* APICalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
+		7ABFD5FF1F134CFB00AAC508 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		7ABFD6001F134CFB00AAC508 /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		7ABFD6011F134CFB00AAC508 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AC9C3B21F16A9D200A9A942 /* APIContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIContract.swift; sourceTree = "<group>"; };
+		88E01DA9EFB077A233340ED4 /* Pods_dejaviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejaviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB3CCEFE11459EB0921116C /* Pods-dejaviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviTests/Pods-dejaviTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A2214F5E218034EF473160 /* Pods-dejavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejavi/Pods-dejavi.release.xcconfig"; sourceTree = "<group>"; };
+		D756C42BF704D7A020DB7E0F /* Pods-dejaviUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviUITests/Pods-dejaviUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB8D92436CA269968D525260 /* Pods-dejavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejavi/Pods-dejavi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7DCC0B6BC97B42EE1865FC7 /* Pods_dejavi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE42DA8A07F758BA9A61F8E1 /* Pods_dejaviTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4203F9298B40401EF37C1F /* Pods_dejaviUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362245780A9425713372F82F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D92436CA269968D525260 /* Pods-dejavi.debug.xcconfig */,
+				D4A2214F5E218034EF473160 /* Pods-dejavi.release.xcconfig */,
+				AEB3CCEFE11459EB0921116C /* Pods-dejaviTests.debug.xcconfig */,
+				29426D2C223D298C1FF181B6 /* Pods-dejaviTests.release.xcconfig */,
+				D756C42BF704D7A020DB7E0F /* Pods-dejaviUITests.debug.xcconfig */,
+				4281C751DB59388A669AF87D /* Pods-dejaviUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A17265C1F1360800056F082 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7A17265D1F1360970056F082 /* ParseJSON.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		7A32AA381F05B8CA0056A667 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				7A32AA581F05B8CE0056A667 /* dejaviTests */,
 				7A32AA631F05B8CE0056A667 /* dejaviUITests */,
 				7A32AA421F05B8CB0056A667 /* Products */,
+				362245780A9425713372F82F /* Pods */,
+				C2BFD997CDEECA329EB904FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +145,10 @@
 		7A32AA431F05B8CB0056A667 /* dejavi */ = {
 			isa = PBXGroup;
 			children = (
+				7ABFD6071F134D8800AAC508 /* Model */,
 				7A32AA441F05B8CB0056A667 /* AppDelegate.swift */,
-				7A32AA461F05B8CB0056A667 /* ViewController.swift */,
+				7ABFD5FF1F134CFB00AAC508 /* CategoryRow.swift */,
+				7ABFD6011F134CFB00AAC508 /* ViewController.swift */,
 				7A32AA481F05B8CC0056A667 /* Main.storyboard */,
 				7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */,
 				7A32AA4D1F05B8CC0056A667 /* LaunchScreen.storyboard */,
@@ -125,6 +175,35 @@
 			path = dejaviUITests;
 			sourceTree = "<group>";
 		};
+		7ABFD6071F134D8800AAC508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AC9C3B11F16A99100A9A942 /* API */,
+				7ABFD6001F134CFB00AAC508 /* Movies.swift */,
+				7A17265C1F1360800056F082 /* Util */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7AC9C3B11F16A99100A9A942 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7ABFD5F91F134CCD00AAC508 /* APICalls.swift */,
+				7AC9C3B21F16A9D200A9A942 /* APIContract.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		C2BFD997CDEECA329EB904FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F66FB69D01B87D4D72DABFE /* Pods_dejavi.framework */,
+				88E01DA9EFB077A233340ED4 /* Pods_dejaviTests.framework */,
+				0131E0FDFB6F6030DF8F2C82 /* Pods_dejaviUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A32AA691F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejavi" */;
 			buildPhases = (
+				17C7D3973FEFDE064A254EA6 /* [CP] Check Pods Manifest.lock */,
 				7A32AA3D1F05B8CB0056A667 /* Sources */,
 				7A32AA3E1F05B8CB0056A667 /* Frameworks */,
 				7A32AA3F1F05B8CB0056A667 /* Resources */,
+				A975AD33431404059BF605AA /* [CP] Embed Pods Frameworks */,
+				E1AFFB0F9F554C5FDB37035B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A32AA6C1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviTests" */;
 			buildPhases = (
+				1E09F75253BFEDF2BB2C83E9 /* [CP] Check Pods Manifest.lock */,
 				7A32AA511F05B8CE0056A667 /* Sources */,
 				7A32AA521F05B8CE0056A667 /* Frameworks */,
 				7A32AA531F05B8CE0056A667 /* Resources */,
+				1DE4E408158FFD084C05A739 /* [CP] Embed Pods Frameworks */,
+				0F99C2C4F73EB16CCEDEA565 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A32AA6F1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviUITests" */;
 			buildPhases = (
+				77DA28B563B321BC2D6AC9AA /* [CP] Check Pods Manifest.lock */,
 				7A32AA5C1F05B8CE0056A667 /* Sources */,
 				7A32AA5D1F05B8CE0056A667 /* Frameworks */,
 				7A32AA5E1F05B8CE0056A667 /* Resources */,
+				DFBF8A0E663F2C5A01CC3E9C /* [CP] Embed Pods Frameworks */,
+				ABAB70980ABF679039CEF7FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +339,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F99C2C4F73EB16CCEDEA565 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejaviTests/Pods-dejaviTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17C7D3973FEFDE064A254EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1DE4E408158FFD084C05A739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejaviTests/Pods-dejaviTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E09F75253BFEDF2BB2C83E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77DA28B563B321BC2D6AC9AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A975AD33431404059BF605AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavi/Pods-dejavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAB70980ABF679039CEF7FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejaviUITests/Pods-dejaviUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBF8A0E663F2C5A01CC3E9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejaviUITests/Pods-dejaviUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1AFFB0F9F554C5FDB37035B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dejavi/Pods-dejavi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A32AA3D1F05B8CB0056A667 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A32AA471F05B8CB0056A667 /* ViewController.swift in Sources */,
+				7ABFD6051F134CFB00AAC508 /* Movies.swift in Sources */,
+				7ABFD6061F134CFB00AAC508 /* ViewController.swift in Sources */,
+				7AC9C3B31F16A9D200A9A942 /* APIContract.swift in Sources */,
 				7A32AA451F05B8CB0056A667 /* AppDelegate.swift in Sources */,
+				7ABFD6041F134CFB00AAC508 /* CategoryRow.swift in Sources */,
+				7ABFD5FA1F134CCD00AAC508 /* APICalls.swift in Sources */,
+				7A17265E1F1360970056F082 /* ParseJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +626,7 @@
 		};
 		7A32AA6A1F05B8CE0056A667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8D92436CA269968D525260 /* Pods-dejavi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = dejavi/Info.plist;
@@ -406,6 +638,7 @@
 		};
 		7A32AA6B1F05B8CE0056A667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4A2214F5E218034EF473160 /* Pods-dejavi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = dejavi/Info.plist;
@@ -417,6 +650,7 @@
 		};
 		7A32AA6D1F05B8CE0056A667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB3CCEFE11459EB0921116C /* Pods-dejaviTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = dejaviTests/Info.plist;
@@ -429,6 +663,7 @@
 		};
 		7A32AA6E1F05B8CE0056A667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29426D2C223D298C1FF181B6 /* Pods-dejaviTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = dejaviTests/Info.plist;
@@ -441,6 +676,7 @@
 		};
 		7A32AA701F05B8CE0056A667 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D756C42BF704D7A020DB7E0F /* Pods-dejaviUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = dejaviUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -453,6 +689,7 @@
 		};
 		7A32AA711F05B8CE0056A667 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4281C751DB59388A669AF87D /* Pods-dejaviUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = dejaviUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +719,7 @@
 				7A32AA6B1F05B8CE0056A667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A32AA6C1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +728,7 @@
 				7A32AA6E1F05B8CE0056A667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A32AA6F1F05B8CE0056A667 /* Build configuration list for PBXNativeTarget "dejaviUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +737,7 @@
 				7A32AA711F05B8CE0056A667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
