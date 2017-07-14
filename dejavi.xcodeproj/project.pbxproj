@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0FD5D01F17D7B20012BD26 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0FD5CF1F17D7B20012BD26 /* CategoryRow.swift */; };
 		7A17265E1F1360970056F082 /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A17265D1F1360970056F082 /* ParseJSON.swift */; };
 		7A32AA451F05B8CB0056A667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA441F05B8CB0056A667 /* AppDelegate.swift */; };
 		7A32AA4A1F05B8CC0056A667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A32AA481F05B8CC0056A667 /* Main.storyboard */; };
@@ -15,10 +16,8 @@
 		7A32AA5A1F05B8CE0056A667 /* dejaviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA591F05B8CE0056A667 /* dejaviTests.swift */; };
 		7A32AA651F05B8CE0056A667 /* dejaviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */; };
 		7ABFD5FA1F134CCD00AAC508 /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD5F91F134CCD00AAC508 /* APICalls.swift */; };
-		7ABFD6041F134CFB00AAC508 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD5FF1F134CFB00AAC508 /* CategoryRow.swift */; };
 		7ABFD6051F134CFB00AAC508 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD6001F134CFB00AAC508 /* Movies.swift */; };
 		7ABFD6061F134CFB00AAC508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABFD6011F134CFB00AAC508 /* ViewController.swift */; };
-		7AC9C3B31F16A9D200A9A942 /* APIContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC9C3B21F16A9D200A9A942 /* APIContract.swift */; };
 		B7DCC0B6BC97B42EE1865FC7 /* Pods_dejavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F66FB69D01B87D4D72DABFE /* Pods_dejavi.framework */; };
 		DC4203F9298B40401EF37C1F /* Pods_dejaviUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0131E0FDFB6F6030DF8F2C82 /* Pods_dejaviUITests.framework */; };
 		DE42DA8A07F758BA9A61F8E1 /* Pods_dejaviTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E01DA9EFB077A233340ED4 /* Pods_dejaviTests.framework */; };
@@ -46,6 +45,7 @@
 		1F66FB69D01B87D4D72DABFE /* Pods_dejavi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejavi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29426D2C223D298C1FF181B6 /* Pods-dejaviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviTests/Pods-dejaviTests.release.xcconfig"; sourceTree = "<group>"; };
 		4281C751DB59388A669AF87D /* Pods-dejaviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviUITests/Pods-dejaviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A0FD5CF1F17D7B20012BD26 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		7A17265D1F1360970056F082 /* ParseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
 		7A32AA411F05B8CB0056A667 /* dejavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dejavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A32AA441F05B8CB0056A667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		7A32AA641F05B8CE0056A667 /* dejaviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dejaviUITests.swift; sourceTree = "<group>"; };
 		7A32AA661F05B8CE0056A667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABFD5F91F134CCD00AAC508 /* APICalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
-		7ABFD5FF1F134CFB00AAC508 /* CategoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		7ABFD6001F134CFB00AAC508 /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		7ABFD6011F134CFB00AAC508 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7AC9C3B21F16A9D200A9A942 /* APIContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIContract.swift; sourceTree = "<group>"; };
 		88E01DA9EFB077A233340ED4 /* Pods_dejaviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dejaviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB3CCEFE11459EB0921116C /* Pods-dejaviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejaviTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dejaviTests/Pods-dejaviTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4A2214F5E218034EF473160 /* Pods-dejavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dejavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-dejavi/Pods-dejavi.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,12 +145,12 @@
 			children = (
 				7ABFD6071F134D8800AAC508 /* Model */,
 				7A32AA441F05B8CB0056A667 /* AppDelegate.swift */,
-				7ABFD5FF1F134CFB00AAC508 /* CategoryRow.swift */,
 				7ABFD6011F134CFB00AAC508 /* ViewController.swift */,
 				7A32AA481F05B8CC0056A667 /* Main.storyboard */,
 				7A32AA4B1F05B8CC0056A667 /* Assets.xcassets */,
 				7A32AA4D1F05B8CC0056A667 /* LaunchScreen.storyboard */,
 				7A32AA501F05B8CC0056A667 /* Info.plist */,
+				7A0FD5CF1F17D7B20012BD26 /* CategoryRow.swift */,
 			);
 			path = dejavi;
 			sourceTree = "<group>";
@@ -189,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				7ABFD5F91F134CCD00AAC508 /* APICalls.swift */,
-				7AC9C3B21F16A9D200A9A942 /* APIContract.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -484,10 +481,9 @@
 			files = (
 				7ABFD6051F134CFB00AAC508 /* Movies.swift in Sources */,
 				7ABFD6061F134CFB00AAC508 /* ViewController.swift in Sources */,
-				7AC9C3B31F16A9D200A9A942 /* APIContract.swift in Sources */,
 				7A32AA451F05B8CB0056A667 /* AppDelegate.swift in Sources */,
-				7ABFD6041F134CFB00AAC508 /* CategoryRow.swift in Sources */,
 				7ABFD5FA1F134CCD00AAC508 /* APICalls.swift in Sources */,
+				7A0FD5D01F17D7B20012BD26 /* CategoryRow.swift in Sources */,
 				7A17265E1F1360970056F082 /* ParseJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

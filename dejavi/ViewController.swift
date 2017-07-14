@@ -12,10 +12,12 @@ import SwiftyJSON
 
 
 class ViewController: UIViewController, UITableViewDataSource {
+    
     var categories = ["Assistidos", "A assistir"]
     let network = APICalls()
     var fetchedResponse: JSON?
     
+    @IBOutlet weak var DataSource: UITableView!
     @IBOutlet weak var removeMovie: UIButton!
     @IBOutlet weak var addMovie: UIButton!
     
@@ -32,10 +34,6 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         loadButtonStyle()
     }
-
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return categories.count
-    }
     
     @IBAction func RemoveMovie(sender: UIButton) {
     }
@@ -43,8 +41,12 @@ class ViewController: UIViewController, UITableViewDataSource {
     @IBAction func AddMovie(sender: UIButton) {
         network.callAPI("batman", "&t=") { (dataRetrieved) in
             self.fetchedResponse = dataRetrieved
-            print("o mundo é dos nets filho da puta \(self.fetchedResponse!)")
+            print("api request on controller \(self.fetchedResponse!)")
         }
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return categories.count
     }
     
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
