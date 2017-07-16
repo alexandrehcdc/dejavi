@@ -7,7 +7,7 @@ target 'dejavi' do
 
   # Pods for dejavi
   pod 'Alamofire', '~> 2.0'
-  pod 'Realm', '~> 0.102.1'
+  pod 'RealmSwift', '~> 0.102.1'
   pod 'SwiftLint'
   pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git', :branch => 'swift2'
   target 'dejaviTests' do
