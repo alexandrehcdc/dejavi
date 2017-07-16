@@ -14,7 +14,7 @@ git clone https://github.com/alexandrehcdc/dejavi.git
 cd dejavi
 pod install
 ```
-
+ 
 ## Ferramentas e bibliotecas utilizadas
 * [Alamofire](https://github.com/Alamofire/Alamofire): Biblioteca para requisições HTTP de forma estruturada
 * [Realm](https://github.com/realm/realm-cocoa): Banco de dados embutido
