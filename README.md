@@ -2,6 +2,9 @@
 
 App para facilitar o gerenciamento dos seus filmes favoritos, que você tenha assistido ou pretende assistir. Construído em Swift 2 com a IDE Xcode v7.2.1, utilizando a API [OMDb](http://www.omdbapi.com/).
 
+## Demo
+![](http://i.imgur.com/c4QfpM9.gif)
+
 ## Instruções e pré-requisitos
 
 A API do OMDb recentemente tornou-se privada, portanto, a **key** de autenticação de requisição presente neste projeto pode vir a se tornar inválida no futuro.
@@ -14,7 +17,7 @@ git clone https://github.com/alexandrehcdc/dejavi.git
 cd dejavi
 pod install
 ```
- 
+
 ## Ferramentas e bibliotecas utilizadas
 * [Alamofire](https://github.com/Alamofire/Alamofire): Biblioteca para requisições HTTP de forma estruturada
 * [Realm](https://github.com/realm/realm-cocoa): Banco de dados embutido
