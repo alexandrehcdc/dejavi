@@ -1,9 +1,8 @@
-//
-//  ButtonStyle.swift
-//  dejavi
-//
-//  Created by dimitri frazao on 7/16/17.
-//  Copyright © 2017 none. All rights reserved.
-//
+import UIKit
 
-import Foundation
+func loadCustomButtonStyle(button: UIButton) -> UIButton {
+    button.layer.backgroundColor = UIColor.blueColor().CGColor
+    button.layer.cornerRadius = 4
+    button.setTitleColor(UIColor.whiteColor(), forState: UIControlState())
+    return button
+}

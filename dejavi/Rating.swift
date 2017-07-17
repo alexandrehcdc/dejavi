@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import RealmSwift
+
+class Ratings {
+    dynamic var ratingStars
+}

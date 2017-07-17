@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  dejavi
-//
-//  Created by dimitri frazao on 6/29/17.
-//  Copyright © 2017 none. All rights reserved.
-//
 import Foundation
 import Alamofire
 import SwiftyJSON
@@ -28,6 +21,25 @@ class APICalls {
                 
                 completion(parseJSON(result.value!))
         }
-
     }
+    
+//    func resolveImage(pathToRequest: String) -> UIImage {
+//        let url = NSURL(string: pathToRequest)
+//        let session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
+//        let task = session.dataTaskWithURL(url!, completionHandler: {data, response, error in
+//            if let http = response as? NSHTTPURLResponse {
+//                guard http.statusCode == 200 else {
+//                    print("error: \(error)")
+//                    return
+//                }
+//                    let downloadedImage = UIImage(data: data!)
+//                    dispatch_async(dispatch_get_main_queue(), {
+//                        return downloadedImage
+//                    })
+//            }
+//        })
+//        task.resume()
+//    }
+    // falta retorno
+    
 }
